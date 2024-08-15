@@ -39,8 +39,6 @@ ruby q2_solution.rb
 ```
 ### Known Limitations and Further Enhancements
 
-These scripts are designed to work with the specific `.dat` files provided (`w_data.dat` and `soccer.dat`). They do not include error handling for other `.dat` files that may have different structures or edge cases in the data. Running the solution files could result in potential exceptions or incorrect outputs.
-
-Essentially, the scripts expect a specific format based on the data in the provided `.dat` files. Any deviation from this format (e.g., missing data, additional columns, or different delimiters) may cause the scripts to fail or produce inaccurate results.
+These scripts are designed to work with the specific `.dat` files provided (`w_data.dat` and `soccer.dat`). They do not include error handling for other `.dat` files that may have completely different structures or edge cases in the format of the data. Any deviation from this format (e.g., missing data, additional columns, or different delimiters) may cause the scripts to fail or produce inaccurate results. Running the solution files with inconsistent `.dat` files could result in potential exceptions or incorrect outputs. 
 
 Furthermore, in Question #2, when instructed to "print the name of the team with the smallest difference in ‘for’ and ‘against’ goals," it is assumed that the solution is looking to identify the team where the difference between the number of goals they scored ("for") and the number of goals scored against them ("against") is the smallest, **regardless of whether the difference is positive or negative.** In other words, we are looking for the team with the smallest absolute value between goals for and goals against, as opposed to finding the team with most negative goal differential.
