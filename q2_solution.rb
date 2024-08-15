@@ -28,5 +28,5 @@ def smallest_differential(file_name)
   end
   
 
-  puts smallest_differential('soccer.dat')
+  puts smallest_differential('soccer.dat') # Expected Output: Aston_Villa
   

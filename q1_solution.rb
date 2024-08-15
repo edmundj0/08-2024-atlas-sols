@@ -26,5 +26,5 @@ def find_smallest_temp_spread_day(file_name)
     smallest_spread_day
   end
   
-  puts find_smallest_temp_spread_day('w_data.dat')
+  puts find_smallest_temp_spread_day('w_data.dat') # Expected output: 14
   
