@@ -17,7 +17,7 @@ def smallest_differential(file_name)
       goals_against = parts[8].to_i
       current_team_name = parts[1]
   
-      current_team_differential = goals_for - goals_against
+      current_team_differential = (goals_for - goals_against).abs
       if current_team_differential < lowest_differential
         lowest_differential = current_team_differential
         team_name = current_team_name
